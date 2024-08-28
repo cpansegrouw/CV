@@ -112,31 +112,31 @@
 %-------------------------------------------------------------------------------
 %% mandatory information
 % your name
-\cvname{Panda Bear}
+\cvname{Christiaan \\[0.2em] Pansegrouw}
 % job title/career
-\cvjobtitle{Panda Scientist,\\[0.2em] Panda of the Year}
+\cvjobtitle{Java Developer}
 
 %% optional information
 % profile picture
 \cvprofilepic{pics/profile.png}
 % logo picture
-\cvlogopic{pics/logo_txt.png}
+% \cvlogopic{pics/logo_txt.png}
 
 % NOTE: ordering in sidebar will mimic the following order
 % date of birth
-\cvbirthday{\today}
+\cvbirthday{August 15, 1981}
 % short address/location, use \newline if more than 1 line is required
-\cvaddress{Park Ave.~1, 555 555 B-Woods}
+\cvaddress{Maarssen, Utrecht, Netherlands}
 % phone number
-\cvphone{+86 555 555 555}
+\cvphone{+31 627 474 802}
 % personal website
-\cvsite{https://pandascience.net}
+% \cvsite{https://pandascience.net}
 % email address
-\cvmail{panda@bamboo.cn}
+\cvmail{cpansegrouw@gmail.com}
 % pgp key
-\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
+%\cvkey{4096R/FF00FF00}{0xAABBCCDDFF00FF00}
 % any other custom entry
-\cvcustomdata{\faFlag}{Chinese}
+%\cvcustomdata{\faFlag}{Chinese}
 
 %-------------------------------------------------------------------------------
 %                              SIDEBAR 1st PAGE
@@ -148,33 +148,39 @@
 	\graphicspath{{pics/gosquared-flags/flags/flags-iso/shiny/64}}
 
 	% social network accounts incl. proper hyperlinks
-	\sidesection{Social Network}
-		\begin{icontable}{2.5em}{1em}
-			\social{\faLeaf}
-				{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
-				{Overleaf Template Link}
-			\social{\faGithub}
-				{https://github.com/PandaScience/FortySecondsCV}
-				{Github Project Page Link}
-		\end{icontable}
+%	\sidesection{Social Network}
+%		\begin{icontable}{2.5em}{1em}
+%			\social{\faLeaf}
+%				{https://de.overleaf.com/latex/templates/forty-seconds-cv/pztcktmyngsk}
+%				{Overleaf Template Link}
+%			\social{\faGithub}
+%				{https://github.com/PandaScience/FortySecondsCV}
+%				{Github Project Page Link}
+%		\end{icontable}
 
 	\sidesection{Languages}
-		\pointskill{\flag{CN.png}}{Chinese}{5}
-		\pointskill{\flag{DE.png}}{German}{3}
-	\pointskill{\flag{GB.png}}{English}{3}
-	\pointskill{\flag{FR.png}}{French}{3}
+		\pointskill{\flag{GB.png}}{English}{5}
+		\pointskill{\flag{ZA.png}}{Afrikaans}{5}
+		\pointskill{\flag{NL.png}}{Dutch}{2}
+		\pointskill{\flag{DE.png}}{German}{1}
+
 
 	\sidesection{Hard Skills}
-		\skill{\faBalanceScale}{Sleeping almost all day}
-		\skill{\faSitemap}{Eating a lot of bamboo sprouts}
-		\skill{\faGraduationCap}{Relaxing rest of the day}
+		\skill{\faSitemap}{Solution architecture and design}
+		\skill{\faJava}{Java, Kotlin}
+		\skill{\faAtom}{Springboot, JEE}
+		\skill{\faDatabase}{MySql, Postgress}
+		\skill{\faLinux}{Linux}
+		\skill{\faDocker}{Docker, Nomad}
 
 	\sidesection{Soft Skills}
-		\pointskill{\faHome}{Looking Cute}{4}[4]
-			\skill[1.8em]{\faCompress}{No need to specify further}
-		\pointskill{\faChild}{Chillin' hard}{3}[4]
-			\skill[1.8em]{\faCompress}{On a tree}
-			\skill[1.8em]{\faCompress}{In the grass}
+		\skill{\faChartLine}{Self-directed and proactive}
+		\skill{\faHandsHelping}{Collaboration and coordination}
+		\skill{\faVolumeUp}{Leadership, mentorship and coaching}
+		\skill{\faFireExtinguisher}{Resilience and adaptability}
+		\skill{\faBrain}{Knowledge sharing and curiosity}
+
+
 }
 
 
@@ -189,55 +195,69 @@
 \addtobacksidebar{
 	\sidesection{About Me}
 	\aboutme{
-		The giant panda is a terrestrial animal and primarily spends its life
-		roaming and feeding in the bamboo forests of the Qinling Mountains and in
-		the hilly province of Sichuan.
+		Accomplished software engineer with over 2 decades of experience in all facets of software development. During my career, I have been part of various founding teams for startups as well as part of teams for large established organisations. For the past 12 years, my career has been largely focused on fintech with a focus on in-person card acquiring on high volume platforms.
 	}
 
-	\sidesection{Diagrams}
-	\begin{sidebarminipage}
-		\chartlabel[pastelgreen]{Bubble}
-		\chartlabel[pastelgreen]{Diagrams}
-		\chartlabel[pastelpurple]{with}
-		\chartlabel[pastelpurple]{proper}
-		\chartlabel[pastelorange]{overflow}
-		\chartlabel[pastelorange]{protection}
-		\chartlabel[pastelyellow]{for}
-		\chartlabel[pastelyellow]{labels}
-	\end{sidebarminipage}
 
-	\begin{figure}\centering
-		\smartdiagram[bubble diagram]{
-			\textcolor{white}{\textbf{Being a}} \\
-			\textcolor{white}{\textbf{Panda}}, % center bubble
-			\textcolor{black!90}{Eating},
-			\textcolor{black!90}{Sleeping},
-			\textcolor{black!90}{Rolling},
-			\textcolor{black!90}{Playing},
-			\textcolor{black!90}{Chilling}
-		}
-	\end{figure}
+	\sidesection{Education}
+		\skill{\faHome}{Self-directed and proactive}
+		\skill{\faChild}{Collaboration and coordination}
+		\skill{\faChild}{Leadership, mentorship and coaching}
+		\skill{\faChild}{Resilience and adaptability}
+		\skill{\faChild}{Knowledge sharing and curiosity}
 
-	\chartlabel{Wheel Chart}
 
-	\wheelchart{3.7em}{2em}{%
-	20/3em/maincolor!50/Chill,
-	15/3em/maincolor!15/Play,
-	30/4em/maincolor!40/Sleep,
-	20/3em/maincolor!20/Eat
-	}
+		\sidesection{Other Interests}
+		\skill{\faRunning}{Running, Crossfit}
+		\skill{\faGlobeAfrica}{Traveling}
+		\skill{\faBook}{Reading (sci-fi, history, action-thriller)}
+		\skill{\faMountain}{Outdoors, hiking}
+		\skill{\faUtensils}{Cooking}
 
-	\sidesection{Barskills}
-	\barskill[1ex]{\faSkyatlas}{Wearing asian rice hats}{60}
-	\barskill[2ex]{\faImage}{Playing Chess}{30}
-	\barskill[3ex]{\faMusic}{Playing the bamboo flute}{50}
-
-	\sidesection{Memberships}
-	\begin{memberships}
-		\membership[4em]{pics/logo.png}{PandaScience.net}
-		\membership[4em]{pics/logo.png}{Some longer text spanning over more than
-			only one line}
-	\end{memberships}
+% 	\sidesection{Diagrams}
+% 	\begin{sidebarminipage}
+% 		\chartlabel[pastelgreen]{Bubble}
+% 		\chartlabel[pastelgreen]{Diagrams}
+% 		\chartlabel[pastelpurple]{with}
+% 		\chartlabel[pastelpurple]{proper}
+% 		\chartlabel[pastelorange]{overflow}
+% 		\chartlabel[pastelorange]{protection}
+% 		\chartlabel[pastelyellow]{for}
+% 		\chartlabel[pastelyellow]{labels}
+% 	\end{sidebarminipage}
+%
+% 	\begin{figure}\centering
+% 		\smartdiagram[bubble diagram]{
+% 			\textcolor{white}{\textbf{Being a}} \\
+% 			\textcolor{white}{\textbf{Panda}}, % center bubble
+% 			\textcolor{black!90}{Eating},
+% 			\textcolor{black!90}{Sleeping},
+% 			\textcolor{black!90}{Rolling},
+% 			\textcolor{black!90}{Playing},
+% 			\textcolor{black!90}{Chilling}
+% 		}
+% 	\end{figure}
+%
+% 	\chartlabel{Wheel Chart}
+%
+% 	\wheelchart{3.7em}{2em}{%
+% 	20/3em/maincolor!50/Chill,
+% 	15/3em/maincolor!15/Play,
+% 	30/4em/maincolor!40/Sleep,
+% 	20/3em/maincolor!20/Eat
+% 	}
+%
+% 	\sidesection{Barskills}
+% 	\barskill[1ex]{\faSkyatlas}{Wearing asian rice hats}{60}
+% 	\barskill[2ex]{\faImage}{Playing Chess}{30}
+% 	\barskill[3ex]{\faMusic}{Playing the bamboo flute}{50}
+%
+% 	\sidesection{Memberships}
+% 	\begin{memberships}
+% 		\membership[4em]{pics/logo.png}{PandaScience.net}
+% 		\membership[4em]{pics/logo.png}{Some longer text spanning over more than
+% 			only one line}
+% 	\end{memberships}
 }
 
 
@@ -249,70 +269,136 @@
 \makefrontsidebar
 
 \cvsection{Working Experience}
-\begin{cvtable}[3]
-	\cvitem{currently}{CEO The Panda Way}{Start Up}{Chief executive officer, Head
-		developer and yoga ambassador of 'The Panda Way' - A company from pandas
-		for pandas.}
-	\cvitem{05/2015 -- 08/2018}{Panda Scientist}{Bamboo University}{
-		Reasearching the impact of adequate bamboo nutrition compared to
-		conventional feeding methods.}
-	\cvitem{2010 -- 2015}{Bamboo Broker}{Stock Exchange}{Continuously achieving
-		better bamboo bangs for the buck.}
+\begin{cvtable}[2]
+
+
+	\cvitem{currently}{Java Team Lead//Deputy CTO}{Exipay Technologies | Netherlands | Fully Remote}{Responsible for establishing a development team to build a multi-tenant in-person card acceptance switching platform, designing the overall switching platform, support and business operations functionality, and orchestrating engineering and development activities to build the company's product and launch in late 2022.
+Establish a business operations team to support platform customers and perform BAU functions.
+Also part of the development engineering team to stay close to the implementation details and provide technical support in all areas of the platform.
+My time split is around 30 on software development and 70 on team management and business operational tasks}
+
+	\cvitem{05/2021 -- 06/2022}{
+Senior Software Engineer//Team lead}{onoConnect, Yoco Group | Netherlands | Fully Remote}{
+OnoConnect was a PSP enabling Yoco to rapidly roll out new fleets of terminal models to their growing merchant base and enable transaction process via multipile acquirer routes in South-Africa. The platform deployment was managed as a muti-region active-active deployment on Azure with Hashicorp stack. Responsibilities :
+\begin{itemize}
+ \item Terminal Management Service (config managment, key management and remote key injection)
+ \item Cryptographic service (importing, exporting, key injection and cryptogram management)
+ \item ISO8583 integration services in various acquirers
+\end{itemize}
+		}
+	\cvitem{02/2019 -- 04/2022}{Java Developer}{Self-employed | South-Africa | Hybrid}{Independent java software development. I worked on in-person card payment acceptance systems and on IOT retail solution that turns retail shelves into data rich environments by using the latest in AI and machine learning together with sensors and smart devices.}
+
+		\cvitem{09/2012 -- 02/2019}{Java Developer / Team Lead}{Thumbzup | South-Africa | On-premise}{Development and design of software platforms and systems.\newline
+Recruit, mentor and manage resources, deal with operational meetings (internally and externally), write proposals and manage projects.\newline
+Input into business development and international expansion of the business.\newline
+Building of a strong R<and>D, solution implementation and execution culture.\newline
+Evangelist / industry expert in the field in which the business operates.}
+
+		\cvitem{09/2011-- 19/2012}{Java Developer}{Pocit | South-Africa | On-premise}{The business has changed its strategy from focusing on mobile person-to-person payments, to being a bill presentment platform company. }
+
+
 \end{cvtable}
-
-
-\cvsection{Education}
-\cvsubsection{Postgraduate Training}
-\begin{cvtable}[1.5]
-	\cvitem{2009 -- 2010}{Post-Doc Panda Studies}{Panda Academy}
-		{In-depth studies on the impact of bamboo nutrition for young pandas and
-		its relation to relaxing, sleeping and snoozing parts of the day.}
-	\cvitem{2008 -- 2009}{Research Stay Europe}{European Panda Labs}
-		{Spending one year abroad teaching european panda facilities about the
-		newest findings and research in the field of asian rice hat covers and
-		applications for bamboo as a material.}
-\end{cvtable}
-
-
-\cvsubsection{Study}
-\begin{cvtable}[1.5]
-	\cvitem{2006 -- 2008}{Master Studies Panda Science}{Panda Academy}
-		{Focus: Advanced rice hat studies and nouveau rain-reflecting cover
-		materials.}
-	\cvitem{}{Master Thesis ($\varnothing\, 1,0$)}{Asian Rice Hat Institute}
-		{Impact of solar radiation onto rice hat cover materials with special
-		attention to water resistance.}
-	\cvitem{2003 -- 2006}{Bachelor Studies PandaScience}{Panda Academy}
-		{Focus: Bamboo morphology and its usage in different craftmanships.}
-	\cvitem{}{Bachelor Thesis ($\varnothing\, 1,0$)}{Bamboo Institute}
-		{The bambo flute: An underestimated instrument in orchestras?}
-\end{cvtable}
-
-\cvsection{Publications}
-\begin{cvtable}
-	\cvpubitem{Cooking: 100 recipes for lazy Pandas}{Me and My Panda Friends}
-		{Panda's Culinary World}{2010}
-	\cvpubitem{Pandastasia}{Still Me}{Bamboo Books Assoc.}{2005}
-\end{cvtable}
-
-\cvsection{Awards}
-\begin{cvtable}
-	\cvitem{2010 -- now}{Panda of the Year}{Panda World Forum}{}
-	\cvitem{2005 -- now}{Face of World Wide Fund for Nature}{WWF}{}
-	\cvitem{2000}{Winner of Bamboo Sprouts Eating Contest}{Bamboo Society}{}
-\end{cvtable}
-
-
-\cvsection{Extra-Curricular Activities}
-\begin{cvtable}
-	\cvitemshort{Relaxing}{Master the fine art of relaxing everywhere}
-	\cvitemshort{Music}{Playing the bamboo flute in the 1st Panda Orchestra}
-	\cvitemshort{Education}{Teaching young pandas to be more panda-like}
-\end{cvtable}
-
 
 \newpage
 \makebacksidebar
+
+\cvsection{}
+\begin{cvtable}[2]
+	\cvitem{04/2008 -- 09/2011}{Java Developer}{Momentum | South-Africa | On-premise}{
+	General maintenance on the system. System consists of Tibco Staffware to drive the workflow. The different steps on a workflow might use JSF and/or EJB depending on the business requirement.
+    Design <and> Implemented Tax directive implementation with SARS. (System to submit tax directives to SARS and process the responses into the business system) - this system would later be used by the majority of Momentum's business groups
+* Assisting junior developers. }
+
+	\cvitem{10/2007 -- 04/2008}{Java Developer}{Stracienta | South-Africa | On-premise}{Stracienta was a startup company with the aim to develop on online Strategy development and implementation management tool
+My responsibilies included.
+* Selection of the technology stack
+* Database design
+* Writing a high-level spec outlining the main functional components.
+* Software development}
+
+	\cvitem{08/2005 -- 10/2007}{Java Developer}{HealthBridge | South-Africa | On-premise}{* Development en Maintenance of Central Switch (Switching claims between doctors and medical aids.
+* Development and maintenance of online claim and reconciliation application for practice administrators. (www.mypractice.co.za)
+* Design and development of various support systems for the central switch.}
+
+	\cvitem{09/2003 -- 08/2005}{Java Developer}{Astrolabe group | South-Africa | On-premise}{Development of a API for a GSM Modem
+* Development <and> Onsite maintenance of FDP (Financial Document Processing) for ABSA Banks Check Division
+* Design and Developed Capture \ AutoCapture (OCR , ICR , OMR , Barcode Reading)
+* Team Leader on the Capture \ AutoCapture Projects
+* Maintain <and> new Development on Docserver (Document Repository System)
+* Development of a SDLC.
+* Assisting developers in applying defined standards and procedures (e.g. Coding standards)
+* Assisting developers on how to improve / enhance / refactor existing projects.}
+
+
+	\cvitem{10/2002 -- 08/2003}{Programmer}{New wave data services | South-Africa | On-premise}{Develop <and> Maintain Short-term Insurance Software System (IMS)
+* Development of Blue Bulls Company season ticket <and> test ticket systems.
+* Maintenance <and> Development for South African Police Force Orphan's Fund
+* Network <and> PC support
+* Telephone Recording Software (Java)
+* Automatic email update program for IMS
+* Background processing for opening MS-Word Mail-Merge Documents for IMS
+* Mail Administrator for NWDS Partners}
+
+	\cvitem{05/2001 -- 04/2001}{Pick Programmer}{Dimension Data | South-Africa | On-premise}{* Maintenance on the main pick system (Vehicle finance)
+* Working on Pick (D3) System, writing small programs to automate various processes.
+* Writing a VB <and> Web front-end for the Pick system.}
+
+\end{cvtable}
+
+
+% \cvsection{Education}
+% \cvsubsection{Postgraduate Training}
+% \begin{cvtable}[1.5]
+% 	\cvitem{2009 -- 2010}{Post-Doc Panda Studies}{Panda Academy}
+% 		{In-depth studies on the impact of bamboo nutrition for young pandas and
+% 		its relation to relaxing, sleeping and snoozing parts of the day.}
+% 	\cvitem{2008 -- 2009}{Research Stay Europe}{European Panda Labs}
+% 		{Spending one year abroad teaching european panda facilities about the
+% 		newest findings and research in the field of asian rice hat covers and
+% 		applications for bamboo as a material.}
+% \end{cvtable}
+
+%
+% \cvsubsection{Study}
+% \begin{cvtable}[1.5]
+% 	\cvitem{2006 -- 2008}{Master Studies Panda Science}{Panda Academy}
+% 		{Focus: Advanced rice hat studies and nouveau rain-reflecting cover
+% 		materials.}
+% 	\cvitem{}{Master Thesis ($\varnothing\, 1,0$)}{Asian Rice Hat Institute}
+% 		{Impact of solar radiation onto rice hat cover materials with special
+% 		attention to water resistance.}
+% 	\cvitem{2003 -- 2006}{Bachelor Studies PandaScience}{Panda Academy}
+% 		{Focus: Bamboo morphology and its usage in different craftmanships.}
+% 	\cvitem{}{Bachelor Thesis ($\varnothing\, 1,0$)}{Bamboo Institute}
+% 		{The bambo flute: An underestimated instrument in orchestras?}
+% \end{cvtable}
+
+% \cvsection{Publications}
+% \begin{cvtable}
+% 	\cvpubitem{Cooking: 100 recipes for lazy Pandas}{Me and My Panda Friends}
+% 		{Panda's Culinary World}{2010}
+% 	\cvpubitem{Pandastasia}{Still Me}{Bamboo Books Assoc.}{2005}
+% \end{cvtable}
+
+% \cvsection{Awards}
+% \begin{cvtable}
+% 	\cvitem{2010 -- now}{Panda of the Year}{Panda World Forum}{}
+% 	\cvitem{2005 -- now}{Face of World Wide Fund for Nature}{WWF}{}
+% 	\cvitem{2000}{Winner of Bamboo Sprouts Eating Contest}{Bamboo Society}{}
+% \end{cvtable}
+
+%
+% \cvsection{Extra-Curricular Activities}
+% \begin{cvtable}
+% 	\cvitemshort{Relaxing}{Master the fine art of relaxing everywhere}
+% 	\cvitemshort{Music}{Playing the bamboo flute in the 1st Panda Orchestra}
+% 	\cvitemshort{Education}{Teaching young pandas to be more panda-like}
+% \end{cvtable}
+
+
+% \newpage
+% \makebacksidebar
+
 % \newgeometry{
 % 	top=\topbottommargin,
 % 	bottom=\topbottommargin,
@@ -320,56 +406,56 @@
 % 	left=\leftrightmargin
 % }
 
-\cvsection{section}
-\cvsubsection{Subsection}
-\begin{cvtable}
-	\cvitem{<dates>}{<cv-item title>}{<location>}{<optional: description>}
-\end{cvtable}
+% \cvsection{section}
+% \cvsubsection{Subsection}
+% \begin{cvtable}
+% 	\cvitem{<dates>}{<cv-item title>}{<location>}{<optional: description>}
+% \end{cvtable}
+%
+% \cvsection{cvitem}
+% \cvsubsection{Multi-line with longer description}
+% \begin{cvtable}
+% 	\cvitem{date}{Description}{location}{Some longer and more detailed
+% 		description, that takes two lines of space instead of only one.}
+% 	\cvitem{date}{Description}{location}{Some longer and more detailed
+% 		description, that takes two lines of space instead of only one.}
+% 	\cvitem{date}{Description}{location}{Some longer and more detailed
+% 		description, that takes two lines of space instead of only one.}
+% \end{cvtable}
+%
+% \cvsubsection{One-line without description}
+% \begin{cvtable}
+% 	\cvitem{Award}{One-line description}{Sponsor}{}
+% 	\cvitem{Award}{One-line description}{Sponsor}{}
+% 	\cvitem{Award}{One-line description}{Sponsor}{}
+% \end{cvtable}
+%
+% \cvsection{cvitemshort}
+% \cvsubsection{One-line}
+% \begin{cvtable}
+% 	\cvitemshort{Key}{Some further description}
+% 	\cvitemshort{Key}{Some further description}
+% 	\cvitemshort{Key}{Some further description}
+% \end{cvtable}
+%
+% \cvsubsection{Multi-line with longer description}
+% \begin{cvtable}
+% 	\cvitemshort{Key}{Some further description. Can fill even more than
+% 		only one single line while still keeping the correct indendation level.}
+% 	\cvitemshort{Key}{Some further description. Can fill even more than
+% 		only one single line while still keeping the correct indendation level.}
+% 	\cvitemshort{Key}{Some further description. Can fill even more than
+% 		only one single line while still keeping the correct indendation level.}
+% \end{cvtable}
+%
+% \cvsection{cvpubitem}
+% \begin{cvtable}
+% 	\cvpubitem{Publication title}{Authors}{Journal}{Year}
+% 	\cvpubitem{Publication title}{Authors}{Journal}{Year}
+% 	\cvpubitem{Publication title that is spanning over multiple lines and still
+% 		does not look too bad}{Authors}{Journal}{Year}
+% \end{cvtable}
 
-\cvsection{cvitem}
-\cvsubsection{Multi-line with longer description}
-\begin{cvtable}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-	\cvitem{date}{Description}{location}{Some longer and more detailed
-		description, that takes two lines of space instead of only one.}
-\end{cvtable}
-
-\cvsubsection{One-line without description}
-\begin{cvtable}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-	\cvitem{Award}{One-line description}{Sponsor}{}
-\end{cvtable}
-
-\cvsection{cvitemshort}
-\cvsubsection{One-line}
-\begin{cvtable}
-	\cvitemshort{Key}{Some further description}
-	\cvitemshort{Key}{Some further description}
-	\cvitemshort{Key}{Some further description}
-\end{cvtable}
-
-\cvsubsection{Multi-line with longer description}
-\begin{cvtable}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-	\cvitemshort{Key}{Some further description. Can fill even more than
-		only one single line while still keeping the correct indendation level.}
-\end{cvtable}
-
-\cvsection{cvpubitem}
-\begin{cvtable}
-	\cvpubitem{Publication title}{Authors}{Journal}{Year}
-	\cvpubitem{Publication title}{Authors}{Journal}{Year}
-	\cvpubitem{Publication title that is spanning over multiple lines and still
-		does not look too bad}{Authors}{Journal}{Year}
-\end{cvtable}
-
-\cvsignature
+% \cvsignature
 
 \end{document}
